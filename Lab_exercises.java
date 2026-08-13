@@ -1,8 +1,11 @@
 public class Lab_exercises {
     public static void main(String[] args) {
-       // explicit casting
-        double value=9.7;
-        System.out.println((int) value);
-        System.out.println((int) Math.round(value));
+     //division trap
+        int a = 5/2;
+        double b = 5/2;
+        double c = 5.0/2;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
