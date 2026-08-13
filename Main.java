@@ -5,5 +5,6 @@ public class Main {
 
         Example obj = new Example();
         obj.display();
+
         }
     }
